@@ -1,0 +1,41 @@
+Memoria Labyrinthia
+
+製作：SulHound — 企劃、內容方向、素材選擇與最終審閱。
+Made by SulHound — design direction, content decisions, asset selection and final review.
+發行 / Publisher: LabDoge
+官方來源 / Official source: https://github.com/labdoge/memoria-labyrinthia-release/releases
+
+開發協作 / Development assistance
+Anthropic Claude — 結構、設計、資料與視覺規格 / structure, design, data and visual specifications.
+OpenAI Codex — 程式、資料結構、素材處理、測試與建置 / code, schemas, asset processing, testing and builds.
+
+圖像 / Visuals
+角色、敵人、背景等圖像以 AI 圖像生成工具製作，再經人工挑選、核可與後製。
+Characters, enemies and backgrounds were created with AI image-generation tools, then selected, approved and post-processed by people.
+專案來源紀錄可確認使用 OpenAI 的 image generation 工具；不推測工具未公開的底層模型版本。
+Project provenance confirms use of OpenAI image-generation tools; undisclosed model versions are not inferred.
+標題字圖使用 Noto Serif CJK TC Light 製作；遊戲並未散布該字型檔。
+The title wordmark was rendered using Noto Serif CJK TC Light; that font file is not distributed.
+
+音樂 / Music
+Suno 生成（Pro 訂閱方案），經官方方式下載，依 Suno 付費方案條款使用。
+Generated with Suno under a Pro subscription, downloaded through the official service and used under Suno's paid-plan terms.
+
+音效 / Sound effects
+Adobe Audition royalty-free sound-effects library; adapted clips are embedded in the game.
+Adobe Audition 免版稅音效庫；剪輯後的音效用於本遊戲，不另作素材包散布。
+Applicable Adobe terms remain in force. Adobe does not sponsor or endorse this game.
+https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html
+https://www.adobe.com/legal/licenses-terms.html
+See AUDIO-SOURCES.txt for the actual sound files used.
+
+引擎與字型 / Engine and fonts
+Godot 4.7 stable — MIT; engine and bundled third-party notices follow.
+Noto Sans TC Regular / Bold — SIL Open Font License 1.1.
+The original Noto Sans TC variable font was instantiated at weights 400 and 700 using FontTools. Glyph designs are unchanged.
+Godot 的 .NET 工具鏈相關聲明也隨附。這個 GDScript 專案沒有 C# 遊戲組件，未另外散布 .NET runtime 資料夾。
+.NET toolchain notices are included. This GDScript project has no C# game assemblies and does not separately bundle a .NET runtime directory.
+
+© 2026 SulHound，保留所有權利。免費遊玩；可分享實況、影片與截圖及非商業同人創作，歡迎分享官方 GitHub 下載連結；禁止販售、在官方來源以外轉載、解包取用素材、製作模組（預計 beta 後開放）、冒用作者身分及用於訓練 AI。完整條款見隨附 LICENSE.md。
+© 2026 SulHound. All rights reserved. Free to play; gameplay videos, streams, screenshots, non-commercial fan works and sharing the official GitHub download link are welcome. Selling, redistributing outside the official source, unpacking assets, mods (planned after the beta), impersonating the author and AI training are not permitted. Full terms: LICENSE.md.
+Third-party software and content retain their respective licenses.

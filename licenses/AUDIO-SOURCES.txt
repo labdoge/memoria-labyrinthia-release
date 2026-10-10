@@ -1,0 +1,105 @@
+Actual audio inventory — X34, 2026-10-06
+
+BGM: Suno, supplied by the project author; free-release use approved under D0245.
+
+bgm_stage_1
+File: assets/audio/bgm/stage_1.mp3
+Source: temp/music_test/Where Roots Remember [overgrown-ruins-explore-1 v001].mp3
+
+bgm_stage_2
+File: assets/audio/bgm/stage_2.mp3
+Source: temp/music_test/Canopy of Old Stones [overgrown-ruins-explore-2 v001].mp3
+
+bgm_miniboss
+File: assets/audio/bgm/miniboss.mp3
+Source: temp/music_test/Thorns Awake [overgrown-ruins-miniboss-1 v001].mp3
+
+bgm_boss
+File: assets/audio/bgm/boss.mp3
+Source: temp/music_test/Bloom of the Thorned Dryad [overgrown-ruins-boss-1 v001].mp3
+
+bgm_invasion
+File: assets/audio/bgm/invasion.mp3
+Source: temp/music_test/Fallen Seekers [invasion-1 v001].mp3
+
+bgm_temple_1
+File: assets/audio/bgm/temple_1.mp3
+Source: temp/music_test/Gold in the Sealed Dark [sand-buried-temple-explore-1 v004].mp3
+
+bgm_temple_2
+File: assets/audio/bgm/temple_2.mp3
+Source: temp/music_test/Echoes Down the Statue Halls [sand-buried-temple-explore-2 v001].mp3
+
+bgm_temple_3
+File: assets/audio/bgm/temple_3.mp3
+Source: temp/music_test/Riders of the Buried Sun [sand-buried-temple-explore-3 v001].mp3
+
+bgm_temple_miniboss
+File: assets/audio/bgm/temple_miniboss.mp3
+Source: temp/music_test/Decree of the Vault Warden [sand-buried-temple-miniboss-1 v002].mp3
+
+bgm_temple_boss
+File: assets/audio/bgm/temple_boss.mp3
+Source: temp/music_test/Vengeance of the Cat-Eyed Throne [sand-buried-temple-boss-1 v001].mp3
+
+SFX: Adobe Audition royalty-free sound-effects library. See CREDITS.txt for official terms links.
+
+sfx_shot_rapid
+File: assets/audio/sfx/sfx_shot_rapid.ogg
+Source: Adobe Audition SFX｜science_fiction.zip｜Science Fiction Sci-Fi Electronic Beep Laser Beep 01.wav
+
+sfx_shot_lance
+File: assets/audio/sfx/sfx_shot_lance.ogg
+Source: Adobe Audition SFX｜science_fiction.zip｜Science Fiction Sci-Fi Laser Single Shot Short 01.wav
+
+sfx_charge_full
+File: assets/audio/sfx/sfx_charge_full.ogg
+Source: Adobe Audition SFX｜science_fiction.zip｜Science Fiction Sci-Fi Electronic Ascending Beep Short 57.wav
+
+sfx_hit_enemy
+File: assets/audio/sfx/sfx_hit_enemy.ogg
+Source: Adobe Audition SFX｜impacts.zip｜Impact Machete Hit On Branch 04.wav
+
+sfx_kill_mob
+File: assets/audio/sfx/sfx_kill_mob.ogg
+Source: Adobe Audition SFX｜impacts.zip｜Impact Plastic Smash 05.wav
+
+sfx_kill_elite
+File: assets/audio/sfx/sfx_kill_elite.ogg
+Source: Adobe Audition SFX｜impacts.zip｜Impact Wood Crash Mic On Floor 03.wav
+
+sfx_player_hit
+File: assets/audio/sfx/sfx_player_hit.ogg
+Source: Adobe Audition SFX｜science_fiction.zip｜Science Fiction Sci-Fi Electronic Distortion 155.wav
+
+sfx_lucidity_low
+File: assets/audio/sfx/sfx_lucidity_low.ogg
+Source: Adobe Audition SFX｜science_fiction.zip｜Science Fiction Sci-Fi Electronic Alert Beep Low 01.wav
+
+sfx_switch
+File: assets/audio/sfx/sfx_switch.ogg
+Source: Adobe Audition SFX｜multimedia.zip｜Multimedia Internet CD-Rom Flash Whoosh Short 03.wav
+
+sfx_ultimate
+File: assets/audio/sfx/sfx_ultimate.ogg
+Source: Adobe Audition SFX｜science_fiction.zip｜Science Fiction Sci-Fi Electronic Teleporting 140.wav
+
+sfx_bullet_to_coin
+File: assets/audio/sfx/sfx_bullet_to_coin.ogg
+Source: Adobe Audition SFX｜impacts.zip｜Impact Coin Quarter Dropping On Cement 02.wav
+
+sfx_pickup_coin
+File: assets/audio/sfx/sfx_pickup_coin.ogg
+Source: Adobe Audition SFX｜foley.zip｜Foley Coins Jingle In Envelope Short 01.wav
+
+sfx_pickup_heal
+File: assets/audio/sfx/sfx_pickup_heal.ogg
+Source: Adobe Audition SFX｜multimedia.zip｜Multimedia Internet CD-Rom Flash Pop Up Short 02.wav
+
+sfx_miniboss_warning
+File: assets/audio/sfx/sfx_miniboss_warning.ogg
+Source: Adobe Audition SFX｜science_fiction.zip｜Science Fiction Sci-Fi Electronic Warning Siren Once 28.wav
+
+sfx_ui_confirm
+File: assets/audio/sfx/sfx_ui_confirm.ogg
+Source: Adobe Audition SFX｜multimedia.zip｜Multimedia Internet CD-Rom Flash Buttons Short 01.wav
