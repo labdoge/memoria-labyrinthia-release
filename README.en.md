@@ -1,6 +1,6 @@
 # Memoria Labyrinthia
 
-[繁體中文](README.md) · v0.1.0 (20261010) · Prototype release
+[繁體中文](README.md) · v0.1.0 (20261014) · Prototype release
 
 Memoria Labyrinthia is a side-scrolling shooter prototype. Switch between a mage, knight and dryad, managing their individual Lucidity gauges against combat damage and time drain as you explore Overgrown Ruins and Sunken Temple.
 
@@ -8,19 +8,24 @@ Memoria Labyrinthia is a side-scrolling shooter prototype. Switch between a mage
 
 ## Prototype status
 
-Content, names and balance may change. Camp options marked WIP (runes, boons and returning to the guild) are not implemented; choose Ready to Depart to continue. The dryad joins through the existing cleansing/unlock rules, or through the optional starting-party assist.
+Content, names and balance may change. At the Shrine, the options marked WIP (Change Runes, Choose a Boon, Return to Guild) are not implemented yet; choose Ready to Depart to continue. The dryad joins through the existing cleansing/unlock rules, or through the optional starting-lineup assist.
 
 ## Download and launch
 
-Archive: `MemoriaLabyrinthia-v0.1.0-20261010-win64-r5.zip`. Its SHA-256 is supplied beside it as `.zip.sha256`; checksums for the included files are in `SHA256SUMS.txt`. Game data is packed inside the `.pck`; no other folder is needed or read.
+There are two downloads with identical contents; pick either:
 
-Extract the archive and run `MemoriaLabyrinthia.exe`, keeping its `.pck` alongside it. If Windows SmartScreen blocks it, verify the download source and SHA-256 first. Once you have confirmed the file is from this project, use More info → Run anyway.
+- **Installer (recommended)**: `MemoriaLabyrinthia-v0.1.0-20261014-win64-en-setup.exe`. It lets you choose the install folder (default: your own `%LOCALAPPDATA%\Programs\Memoria Labyrinthia`, no administrator rights needed), can add a desktop shortcut, and can be removed from Windows "Add or remove programs".
+- **Archive**: `MemoriaLabyrinthia-v0.1.0-20261014-win64-en.zip`. Extract it anywhere and run `MemoriaLabyrinthia.exe`, keeping its `.pck` alongside it.
 
-Checksum command: `Get-FileHash .\MemoriaLabyrinthia-v0.1.0-20261010-win64-r5.zip -Algorithm SHA256`.
+Settings and saves are stored in `%APPDATA%`; reinstalling, switching to the other language package or uninstalling never deletes them. Game data is packed inside the `.pck`; no other folder is needed or read.
+
+If Windows SmartScreen blocks it, verify the download source and SHA-256 first. Once you have confirmed the file is from this project, use More info → Run anyway. The SHA-256 of the installer and of the archive is supplied beside each as a `.sha256` file; checksums for the included files are in `SHA256SUMS.txt`.
+
+Checksum command: `Get-FileHash .\MemoriaLabyrinthia-v0.1.0-20261014-win64-en-setup.exe -Algorithm SHA256` or `Get-FileHash .\MemoriaLabyrinthia-v0.1.0-20261014-win64-en.zip -Algorithm SHA256`.
 
 ## Requirements
 
-Windows 10/11 64-bit and a keyboard. Minimum: Intel Core i3 4th generation, 4 GB RAM, a GeForce GTX 1650 (4 GB) or Radeon RX 5500 XT class discrete GPU; integrated graphics are not supported. Controllers are not supported yet. Choose borderless fullscreen or 1280×720, 1600×900 and 1920×1080 windows; sizes that do not fit the display are hidden.
+Windows 10/11 64-bit and a keyboard. Target minimum (not yet verified on that hardware): Intel Core i3 4th generation, 4 GB RAM, a GeForce GTX 1650 (4 GB) or Radeon RX 5500 XT class discrete GPU; integrated graphics are not supported. Controllers are not supported yet. Choose borderless fullscreen or 1280×720, 1600×900 and 1920×1080 windows; sizes that do not fit the display are hidden.
 
 ## Controls
 
@@ -33,8 +38,8 @@ A flashing-light warning appears on every launch. The game includes flashes and 
 ## Settings and assists
 
 - Traditional Chinese and English switch immediately.
-- Start at the first stage of either biome. Sunken Temple is designed for three party members.
-- Third Member from Start changes the party without granting the persistent unlock.
+- Start at the first stage of either biome. Sunken Temple is designed for three agents.
+- Third Member from Start changes the agent lineup without granting the persistent unlock.
 - Invincible Mode prevents damage from hits, collisions and terrain; Lucidity still drains over time.
 - Damage Numbers are off by default. Hits on the same enemy merge within a short time window.
 - Results identify invincibility and three-member starting assists when enabled.
@@ -43,7 +48,14 @@ Preferences are stored at `%APPDATA%\Godot\app_userdata\Memoria Labyrinthia\sett
 
 ## Feedback
 
-Survey URL: pending the author. The button is hidden until a URL is configured, then appears on party-wipe extraction and final-clear results.
+Please fill in the playtest survey (no sign-in, no email collected):
+
+- English: <https://forms.gle/Hovxnh7ur2qhL5QR6>
+- 繁體中文: <https://forms.gle/WTVr1ddyM2k8AT2i9>
+
+The all-agents-down extraction and final-clear results also show a "Give Feedback" button, which opens the survey in the language the game is showing at that moment.
+
+The game ships as an English and a Traditional Chinese package that differ only in the language used on the first start. Both can switch language from the main menu and share the same settings and save, so if you played one package before, the other one starts in the language you chose last.
 
 Include the version, reproduction steps, a screenshot and `%APPDATA%\Godot\app_userdata\Memoria Labyrinthia\logs\godot.log`. Paste the path into File Explorer to locate the log. Application flow/data diagnostics redact common user-directory names; you can still review the file before sharing it.
 
@@ -63,5 +75,5 @@ The project uses a Godot .NET editor, but the game currently uses GDScript and h
 
 ## Changelog
 
-- v0.1.0 (20261010): First confirmed prototype release. Two biomes (Overgrown Ruins, Sunken Temple) of six stages each with a miniboss and boss, invasions, skills / switch effects / ultimates for all three characters, the new lighting and effects; game data packed in the PCK.
+- v0.1.0 (20261014): First confirmed prototype release. Two biomes (Overgrown Ruins, Sunken Temple) of six stages each with a miniboss and boss, invasions, skills / switch effects / ultimates for all three characters, the new lighting and effects; game data packed in the PCK.
 - 2026-10-06: Prepared the first public prototype with bilingual startup/tutorial screens, title and menus, persistent settings, player assists, damage numbers and a separate public-build profile.
