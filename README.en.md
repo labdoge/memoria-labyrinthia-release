@@ -6,6 +6,10 @@ Memoria Labyrinthia is a side-scrolling shooter prototype. Switch between a mage
 
 ![Gameplay](images/gameplay.png)
 
+## About this project
+
+Memoria Labyrinthia is a passion project. The latest release build, v0.1.0, is the prototype: it focuses on testing the core gameplay and performance, and the concepts and visual presentation are very likely to change in later builds.
+
 ## Prototype status
 
 Content, names and balance may change. At the Shrine, the options marked WIP (Change Runes, Choose a Boon, Return to Guild) are not implemented yet; choose Ready to Depart to continue. The dryad joins through the existing cleansing/unlock rules, or through the optional starting-lineup assist.
