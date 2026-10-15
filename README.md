@@ -4,7 +4,9 @@
 
 Memoria Labyrinthia 是橫向捲軸射擊原型。輪換法師、騎士與樹精，以各自的神智量表承受戰鬥與時間消耗，探索草蔓廢墟及沙下神殿。
 
-![遊戲畫面](images/gameplay.png)
+[![試玩預告（點擊觀看）](images/trailer-zh-tw.jpg)](https://www.youtube.com/watch?v=eDEu2AUrbzY)
+
+▶ 試玩預告：[繁體中文](https://www.youtube.com/watch?v=eDEu2AUrbzY)／[English](https://www.youtube.com/watch?v=C7s5uIIwHOk)
 
 ## 關於本專案
 
@@ -18,8 +20,8 @@ Memoria Labyrinthia 是一個熱情專案（passion project）。目前最新的
 
 有兩種下載方式，內容完全相同，擇一即可：
 
-- **安裝檔（推薦）**：`MemoriaLabyrinthia-v0.1.0-20261014-win64-zh-TW-setup.exe`。執行後依畫面選擇安裝位置（預設為個人資料夾 `%LOCALAPPDATA%\Programs\Memoria Labyrinthia`，不需要系統管理員權限），可建立桌面捷徑，並可從 Windows「新增或移除程式」解除安裝。
-- **壓縮檔**：`MemoriaLabyrinthia-v0.1.0-20261014-win64-zh-TW.zip`。解壓縮到任意資料夾後執行 `MemoriaLabyrinthia.exe`，保留同目錄的 `.pck`。
+- **壓縮檔（推薦）**：`MemoriaLabyrinthia-v0.1.0-20261014-win64-zh-TW.zip`。解壓縮到任意資料夾後執行 `MemoriaLabyrinthia.exe`，保留同目錄的 `.pck`。
+- **安裝檔**：`MemoriaLabyrinthia-v0.1.0-20261014-win64-zh-TW-setup.exe`。執行後依畫面選擇安裝位置（預設為個人資料夾 `%LOCALAPPDATA%\Programs\Memoria Labyrinthia`，不需要系統管理員權限），可建立桌面捷徑，並可從 Windows「新增或移除程式」解除安裝。若安裝檔無法正常安裝或啟動，請改用壓縮檔。
 
 設定與存檔存放在 `%APPDATA%`，重新安裝、換成另一個語言版本或解除安裝都不會刪除。遊戲資料封裝在 `.pck` 內，不需要也不會讀取其他資料夾。
 

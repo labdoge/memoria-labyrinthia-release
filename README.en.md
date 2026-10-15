@@ -4,7 +4,9 @@
 
 Memoria Labyrinthia is a side-scrolling shooter prototype. Switch between a mage, knight and dryad, managing their individual Lucidity gauges against combat damage and time drain as you explore Overgrown Ruins and Sunken Temple.
 
-![Gameplay](images/gameplay.png)
+[![Playtest trailer (click to watch)](images/trailer-en.jpg)](https://www.youtube.com/watch?v=C7s5uIIwHOk)
+
+▶ Playtest trailer: [English](https://www.youtube.com/watch?v=C7s5uIIwHOk) / [繁體中文](https://www.youtube.com/watch?v=eDEu2AUrbzY)
 
 ## About this project
 
@@ -18,8 +20,8 @@ Content, names and balance may change. At the Shrine, the options marked WIP (Ch
 
 There are two downloads with identical contents; pick either:
 
-- **Installer (recommended)**: `MemoriaLabyrinthia-v0.1.0-20261014-win64-en-setup.exe`. It lets you choose the install folder (default: your own `%LOCALAPPDATA%\Programs\Memoria Labyrinthia`, no administrator rights needed), can add a desktop shortcut, and can be removed from Windows "Add or remove programs".
-- **Archive**: `MemoriaLabyrinthia-v0.1.0-20261014-win64-en.zip`. Extract it anywhere and run `MemoriaLabyrinthia.exe`, keeping its `.pck` alongside it.
+- **Archive (recommended)**: `MemoriaLabyrinthia-v0.1.0-20261014-win64-en.zip`. Extract it anywhere and run `MemoriaLabyrinthia.exe`, keeping its `.pck` alongside it.
+- **Installer**: `MemoriaLabyrinthia-v0.1.0-20261014-win64-en-setup.exe`. It lets you choose the install folder (default: your own `%LOCALAPPDATA%\Programs\Memoria Labyrinthia`, no administrator rights needed), can add a desktop shortcut, and can be removed from Windows "Add or remove programs". If the installer does not install or launch correctly, use the archive instead.
 
 Settings and saves are stored in `%APPDATA%`; reinstalling, switching to the other language package or uninstalling never deletes them. Game data is packed inside the `.pck`; no other folder is needed or read.
 
